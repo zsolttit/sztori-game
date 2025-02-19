@@ -7,10 +7,10 @@ class StoryGame:
     def __init__(self, root, story_file):
         self.root = root
         self.root.title("Sztori Mesélő Játék")
-        self.root.geometry("800x600")  # Fix méret
-        self.root.configure(bg="black")  # Ablak háttérszíne
+        self.root.geometry("800x600") 
+        self.root.configure(bg="black")
 
-        # Ellenőrizd, hogy a fájl létezik-e
+        
         if not os.path.exists(story_file):
             raise FileNotFoundError(f"A '{story_file}' fájl nem található!")
 
@@ -18,13 +18,13 @@ class StoryGame:
         self.story_data = self.load_story_data()
         self.current_step = 0
 
-        # Betűtípus fájl regisztrálása
+        
         self.root.tk.call("font", "create", "PressStart2P", "-family", "Press Start 2P", "-size", 16)
 
-        # Pixeles betűtípus használata
+        
         self.pixel_font = font.Font(family="PressStart2P", size=16)
 
-        # Szöveg megjelenítése
+        
         self.label = tk.Label(
             root,
             text="",
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # A szkript mappájának meghatározása
     script_dir = os.path.dirname(os.path.abspath(__file__))
     story_file = os.path.join(script_dir, "story.txt")
-
+    print("Debug")
     # Ellenőrizd, hogy a fájl létezik-e
     if not os.path.exists(story_file):
         print(f"Hiba: A '{story_file}' fájl nem található!")
