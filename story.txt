@@ -1,0 +1,42 @@
+Egy nap hirtelen az erdőben ébredsz. Körülötted csak a fák és a csend van. Mi a következő dolog amit tennél? | Megnézem mi van nálam | Elkezdek ordítozni reménykedve, hogy valaki meghallja a hangomat | 1 | 2
+Megnézted, mi van nálad. Találtál egy térképet és egy kiskanalat. Mit teszel? | Követem a térképet | Használom a kiskanalat, hogy ássak | 3 | 4
+Elkezdtél ordítani, de senki sem válaszol. Mit teszel? | Megpróbálok tüzet rakni | Megpróbálok magamnak menedéket építeni | 5 | 6
+Követed a térképet, és egy titokzatos kunyhóhoz érsz. Belépnél? | Igen, belépek | Nem, inkább továbbmegyek | 7 | 8
+Használod a kiskanalat, hogy áss, és egy régi ládát találsz. Mit csinálsz? | Megpróbálom kinyitni | Elásom újra, és továbbmegyek | 9 | 10
+Megpróbálsz tüzet rakni, de nincs nálad gyufa. Mit teszel? | Próbálok más módon tüzet gyújtani | Feladom, és megpróbálok aludni | 11 | 12
+Megpróbálsz menedéket építeni, de nincs elég anyag. Mit teszel? | Próbálok több anyagot gyűjteni | Feladom, és megpróbálok aludni | 13 | 14
+Belépsz a kunyhóba, és egy öregembert találsz, aki egy rejtvényt ad neked. Megpróbálod megoldani? | Igen, megpróbálom | Nem, inkább távozok | 15 | 16
+Továbbmész a kunyhó mellett, és egy mély szakadékhoz érsz. Mit teszel? | Megpróbálok átkelni | Visszafordulok | 17 | 18
+Megpróbálod kinyitni a ládát, és sikerül. Egy arany nyakláncot találsz benne. Mit csinálsz? | Felveszem a nyakláncot | Hagyom a ládában, és továbbmegyek | 19 | 20
+Elásod újra a ládát, és továbbmész. Egy folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
+Próbálsz más módon tüzet gyújtani, és sikerül. Mit csinálsz? | Pihenek a tűz mellett | Használom a tüzet, hogy jelezzek | 23 | 24
+Feladod, és megpróbálsz aludni. Éjszaka farkasok támadnak rád. Mit teszel? | Megpróbálok menekülni | Harcolok a farkasokkal | 25 | 26
+Próbálsz több anyagot gyűjteni, és sikerül építeni egy kis menedéket. Mit csinálsz? | Pihenek a menedékben | Használom a menedéket, hogy jelezzek | 27 | 28
+Feladod, és megpróbálsz aludni. Éjszaka farkasok támadnak rád. Mit teszel? | Megpróbálok menekülni | Harcolok a farkasokkal | 25 | 26
+Megpróbálod megoldani a rejtvényt, és sikerül. Az öregember elárulja, hogyan juthatsz ki az erdőből. Mit teszel? | Köszönöm, és követem az utasításait | Nem hiszek neki, és inkább magamtól próbálok kijutni | 29 | 30
+Távozol a kunyhóból, és egy sötét erdőbe érsz. Mit teszel? | Megpróbálok visszatérni a kunyhóhoz | Továbbmegyek az erdőben | 31 | 32
+Megpróbálsz átkelni a szakadékon, és sikerül. Egy titokzatos barlanghoz érsz. Belépnél? | Igen, belépek | Nem, inkább továbbmegyek | 33 | 34
+Visszafordulsz, és egy másik utat választasz. Egy folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
+Felveszed a nyakláncot, és továbbmész. Egy faluhoz érsz. Mit teszel? | Bemegyek a faluba | Kerülöm a falut, és továbbmegyek | 35 | 36
+Hagyod a nyakláncot a ládában, és továbbmész. Egy folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
+Megpróbálsz átúszni a folyón, és sikerül. Egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
+Megpróbálsz hidat építeni, de nem sikerül. Mit teszel? | Megpróbálok átúszni | Visszafordulok | 21 | 18
+Pihensz a tűz mellett, és reggel új erővel indulsz tovább. Mit teszel? | Követem a napot | Visszamegyek a kunyhóhoz | 39 | 40
+Használod a tüzet, hogy jelezz, és egy csapat mentőt találsz. Megmentenek. | - | - | -1 | -1
+Megpróbálsz menekülni a farkasok elől, de nem sikerül. A farkasok megtalálnak. | - | - | -1 | -1
+Harcolsz a farkasokkal, és sikerül elűznöd őket. Mit teszel? | Pihenek egy kicsit | Továbbmegyek | 41 | 42
+Pihensz a menedékben, és reggel új erővel indulsz tovább. Mit teszel? | Követem a napot | Visszamegyek a kunyhóhoz | 39 | 40
+Használod a menedéket, hogy jelezz, de senki sem veszi észre. Mit teszel? | Továbbmegyek | Visszamegyek a kunyhóhoz | 43 | 40
+Köszönöd az öregembernek, és követed az utasításait. Sikerül kijutnod az erdőből. | - | - | -1 | -1
+Nem hiszel az öregembernek, és magadtól próbálsz kijutni. Eltévedsz az erdőben. | - | - | -1 | -1
+Megpróbálsz visszatérni a kunyhóhoz, de nem találod. Eltévedsz az erdőben. | - | - | -1 | -1
+Továbbmész az erdőben, és egy másik folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
+Belépsz a barlangba, és egy rejtett kincset találsz. Mit csinálsz? | Felveszem a kincset | Hagyom a kincset, és továbbmegyek | 41 | 42
+Továbbmész a barlang mellett, és egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
+Bemész a faluba, és a falusiak segítenek neked. Sikerül hazatérned. | - | - | -1 | -1
+Kerülöd a falut, és továbbmész. Egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
+Követed a napot, és sikerül kijutnod az erdőből. | - | - | -1 | -1
+Visszamész a kunyhóhoz, de az öregember már nincs ott. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek | 37 | 38
+Továbbmész, és egy másik folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
+Felveszed a kincset, és továbbmész. Egy faluhoz érsz. Mit teszel? | Bemegyek a faluba | Kerülöm a falut, és továbbmegyek | 35 | 36
+Hagyod a kincset, és továbbmész. Egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
