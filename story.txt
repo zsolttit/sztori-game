@@ -35,7 +35,7 @@ Belépsz a barlangba, és egy rejtett kincset találsz. Mit csinálsz? | Felvesz
 Továbbmész a barlang mellett, és egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
 Bemész a faluba, és a falusiak segítenek neked. Sikerül hazatérned. | - | - | -1 | -1
 Kerülöd a falut, és továbbmész. Egy másik erdőbe érsz. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek az erdőben | 37 | 38
-Követed a napot, és sikerül kijutnod az erdőből. | - | - | -1 | -1
+Követed a napot, és sikerül kijutnod ebből az erdőből. | - | - | -1 | -1
 Visszamész a kunyhóhoz, de az öregember már nincs ott. Mit teszel? | Megpróbálok tájékozódni | Továbbmegyek | 37 | 38
 Továbbmész, és egy másik folyóhoz érsz. Mit teszel? | Megpróbálok átúszni | Megpróbálok hidat építeni | 21 | 22
 Felveszed a kincset, és továbbmész. Egy faluhoz érsz. Mit teszel? | Bemegyek a faluba | Kerülöm a falut, és továbbmegyek | 35 | 36
