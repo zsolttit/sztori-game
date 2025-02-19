@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # A szkript mappájának meghatározása
     script_dir = os.path.dirname(os.path.abspath(__file__))
     story_file = os.path.join(script_dir, "story.txt")
-    print("Debug")
+    
     # Ellenőrizd, hogy a fájl létezik-e
     if not os.path.exists(story_file):
         print(f"Hiba: A '{story_file}' fájl nem található!")
