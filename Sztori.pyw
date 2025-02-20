@@ -32,7 +32,7 @@ class StoryGame:
             wraplength=700,
             anchor="w",  # Balra igazítás
             justify="left",  # Balra igazított szöveg
-            bg="black",  # Háttérszín
+            bg="black",  # Háttérszíne
             fg="green",  # Szövegszín
             borderwidth=10,  # Szegély vastagsága
             padx=20,  # Vízszintes kitöltés
@@ -50,7 +50,7 @@ class StoryGame:
             command=self.choose_a,
         )
         self.button_a.pack(pady=10)
-        self.button_a.pack_forget()  # Elrejtjük a gombot kezdetben
+        self.button_a.pack_forget()  # Elrejtjük a gombot az elején
 
         self.button_b = tk.Button(
             root,
@@ -84,7 +84,7 @@ class StoryGame:
         for i in range(len(text) + 1):
             self.label.config(text=text[:i])
             self.root.update()
-            time.sleep(0.025)  # Szöveg megjelenítésének sebessége
+            time.sleep(0.020)  # Szöveg megjelenítésének sebessége
 
         # A szöveg betöltése után megjelenítjük a gombokat
         self.button_a.pack(pady=10)
@@ -114,7 +114,7 @@ class StoryGame:
             self.button_b.pack_forget()  # Elrejtjük a gombot
             self.update_story()
 
-    def end_game(self):
+    def end_game(self): # Játék vége rész
         self.label.config(text="A történet véget ért!")
         self.button_a.config(state=tk.DISABLED)
         self.button_b.config(state=tk.DISABLED)

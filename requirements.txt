@@ -1,5 +1,5 @@
-pip install pyinstaller
+
 pip install tkinter
-pip install pygame
+
 
 Visontai Dávid, Csányi Zsolt, Hajdú Dávid
